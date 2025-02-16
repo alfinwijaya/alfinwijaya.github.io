@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Project.css";
-import ProjectCard from "../../components/ProjectCard/";
+import ProjectCard from "../../components/projectCard";
 
 export default function Projects() {
   const [repo, _] = useState([]);
@@ -13,7 +13,7 @@ export default function Projects() {
           return <ProjectCard repo={v} key={v.node.id} />;
         })}
       </div>
-      <a className="resume-btn" href="https://github.com/harikanani">
+      <a className="resume-btn" href="https://github.com/alfinwijaya">
         More Projects (Github)
       </a>
     </div>

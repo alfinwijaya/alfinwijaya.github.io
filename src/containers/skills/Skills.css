@@ -39,6 +39,11 @@
   font-family: "Google Sans Regular";
 }
 
+.skills-text-indent {
+  text-indent: -1.6em;
+  padding-left: 1.6em;
+}
+
 /* Media Query */
 @media (max-width: 1380px) {
   .skills-heading {

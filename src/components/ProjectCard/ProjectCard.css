@@ -57,7 +57,7 @@
 
 .repo-description {
   word-wrap: break-word;
-  text-align: left;
+  text-align: justify;
   display: -webkit-box;
   font-family: "Google Sans Regular";
   -webkit-line-clamp: 4;
@@ -97,6 +97,7 @@
 
   .repo-description {
     font-size: 14px;
+    text-align: justify;
   }
 
   .repo-details {

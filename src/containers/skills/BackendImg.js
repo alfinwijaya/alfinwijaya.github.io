@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function FullStackImg(props) {
+export default function BackendImg(props) {
   const theme = props.theme;
   return (
     <svg

@@ -3,16 +3,14 @@ import "./Skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
-import FullStackImg from "./FullStackImg";
+import BackendImg from "./BackendImg";
 import CloudInfraImg from "./CloudInfraImg";
-// import DesignImg from "./DesignImg";
 
 function GetSkillSvg(props) {
-  if (props.fileName === "FullStackImg")
-    return <FullStackImg theme={props.theme} />;
+  if (props.fileName === "BackendImg")
+    return <BackendImg theme={props.theme} />;
   else if (props.fileName === "CloudInfraImg")
     return <CloudInfraImg theme={props.theme} />;
-  // return <DesignImg theme={props.theme} />;
 }
 
 function SkillSection(props) {
@@ -43,7 +41,7 @@ function SkillSection(props) {
                     {skill.skills.map((skillSentence) => {
                       return (
                         <p
-                          className="subTitle skills-text"
+                          className="subTitle skills-text skills-text-indent"
                           style={{ color: theme.secondaryText }}
                         >
                           {skillSentence}
@@ -72,7 +70,7 @@ function SkillSection(props) {
                     {skill.skills.map((skillSentence) => {
                       return (
                         <p
-                          className="subTitle skills-text"
+                          className="subTitle skills-text skills-text-indent"
                           style={{ color: theme.secondaryText }}
                         >
                           {skillSentence}

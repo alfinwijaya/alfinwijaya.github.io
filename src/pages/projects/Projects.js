@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
-import ProjectCard from "../../components/ProjectCard/ProjectCard";
+import ProjectCard from "../../components/projectCard/ProjectCard.js";
 import { Fade } from "react-reveal";
 import { projectsHeader, projects } from "../../portfolio.js";
 import "./Projects.css";
@@ -55,7 +55,7 @@ function Projects(props) {
       <a
         {...styles}
         className="general-btn"
-        href="https://github.com/harikanani"
+        href="https://github.com/alfinwijaya"
       >
         More Projects (Github)
       </a>

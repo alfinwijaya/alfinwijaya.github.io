@@ -25,6 +25,7 @@ function ExperienceCard(props) {
             <h3 className="experience-card-title" style={{ color: theme.text }}>
               {experience["title"]}
             </h3>
+            <div className="experience-card-margin-top"></div>
             <p
               className="experience-card-company"
               style={{ color: theme.secondaryText }}
@@ -45,6 +46,7 @@ function ExperienceCard(props) {
             >
               {experience["duration"]}
             </p>
+            <div className="experience-card-margin-top"></div>
             <p
               className="experience-card-location"
               style={{ color: theme.secondaryText }}

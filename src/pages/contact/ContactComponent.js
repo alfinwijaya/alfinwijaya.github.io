@@ -56,6 +56,7 @@ function Contact(props) {
             </div>
           </div>
         </Fade>
+        {/* 
         <Fade bottom duration={1000} distance="40px">
           <div className="blog-heading-div">
             <div className="blog-heading-text-div">
@@ -78,7 +79,8 @@ function Contact(props) {
               <BlogsImg theme={theme} />
             </div>
           </div>
-        </Fade>
+        </Fade> 
+        */}
       </div>
       <Footer theme={props.theme} onToggle={props.onToggle} />
     </div>
