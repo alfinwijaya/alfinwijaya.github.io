@@ -15,7 +15,7 @@ const greeting = {
   full_name: "Alfin Wijaya",
   subTitle: "Backend Developer, Web Tech Enthusiast 🔥. Always learning.",
   resumeLink:
-    "https://drive.google.com/file/d/1ay8BfMYaXF3a1u4OH6A7_f66A5cpG_dO/view?usp=drive_link",
+    "https://drive.google.com/file/d/1VfaklFaVGtLwrVgkXCPwbWM4mRCwiveY/view?usp=drive_link",
   mail: "mailto:wijayaalfin@gmail.com",
 };
 
