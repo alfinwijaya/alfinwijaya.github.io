@@ -127,9 +127,9 @@ const degrees = {
       alt_name: "UBM",
       duration: "2016 - 2020",
       descriptions: [
-        "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
+        "⚡ I have studied core subjects like Data Structures, Algorithm, DBMS, Networking, Security, etc.",
         "⚡ I have also completed various workshops for Web , Mobile App Development, etc.",
-        "⚡ I have implemented several projects based on what I've learnt under my Computer Engineering course. ",
+        "⚡ I am the best graduate of IT Major class of 2016.",
         "⚡ I have secured 3.95/4.00 GPA.",
       ],
       website_link: "https://www.ubm.ac.id/",
@@ -139,6 +139,42 @@ const degrees = {
 
 const certifications = {
   certifications: [
+    {
+      title: "Belajar Machine Learning untuk Pemula",
+      subtitle: "Dicoding Indonesia",
+      logo_path: "dicoding.png",
+      certificate_link:
+        "https://www.dicoding.com/certificates/MEPJOGEVLZ3V",
+      alt_name: "Dicoding Indonesia",
+      color_code: "#2E3F51",
+    },
+    {
+      title: "Memulai Pemrograman dengan Python",
+      subtitle: "Dicoding Indonesia",
+      logo_path: "dicoding.png",
+      certificate_link:
+        "https://www.dicoding.com/certificates/ERZRLY732ZYV",
+      alt_name: "Dicoding Indonesia",
+      color_code: "#2E3F51",
+    },
+    {
+      title: "Belajar Dasar Cloud dan Gen AI di AWS",
+      subtitle: "Dicoding Indonesia",
+      logo_path: "dicoding.png",
+      certificate_link:
+        "https://www.dicoding.com/certificates/98XW0L5NLXM3",
+      alt_name: "Dicoding Indonesia",
+      color_code: "#2E3F51",
+    },
+    {
+      title: "Spec-Driven Development dengan Kiro",
+      subtitle: "Dicoding Indonesia",
+      logo_path: "dicoding.png",
+      certificate_link:
+        "https://www.dicoding.com/certificates/1OP8RN7JLZQK",
+      alt_name: "Dicoding Indonesia",
+      color_code: "#2E3F51",
+    },
     {
       title: "Belajar Fundamental Aplikasi Back-End",
       subtitle: "Dicoding Indonesia",
@@ -201,24 +237,40 @@ const experience = {
   title: "Experience",
   subtitle: "Professional Experience",
   description:
-    "As a Backend Developer, I have accumulated nearly 4 years of work experience. I have worked on various projects. I enjoy collaborating with teams to share my knowledge and expertise.",
+    "Backend Developer with 5 years of experience building scalable APIs and internal systems using Python, C#, and cloud technologies.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
         {
-          title: "Backend Developer",
-          company: "Agung Sedayu Group",
+          title: "Agung Sedayu Group",
+          company: "2 positions",
           company_url: "https://www.agungsedayu.com/",
           logo_path: "asg.png",
-          duration: "Nov 2022 - Present",
+          duration: "Nov 2022 - Present · 3 yrs 7 mos",
           location: "Jakarta, Indonesia",
           description: `
-          • Developed and maintained RESTful APIs using Python and C#.\n
-          • Leveraging Google Cloud Platform services (Cloud Run, Cloud Functions, PubSub).\n
-          • Design efficient systems and implement effective algorithms for improved performance.\n
-          • Resolved application errors and collaborated with business analysts.`,
+          Senior Backend Developer
+          Nov 2025 - Present · 7 mos
+
+          • Developed and maintained microservices and RESTful APIs using Python (FastAPI) and C# .NET.
+          • Deployed and maintained applications using Cloud Run and Cloud Functions.
+          • Refactored legacy code and improved system maintainability.
+          • Wrote technical documentation and system workflows.
+          • Contributed to data migration from Microsoft Dynamics AX to PostgreSQL.
+          • Leveraged Generative AI for code generation, refactoring, and documentation.
+
+          ────────────────────
+
+          Backend Developer
+          Nov 2022 - Oct 2025 · 3 yrs
+
+          • Developed and maintained RESTful APIs and internal applications using Python and C#.
+          • Implemented cloud-based solutions using Google Cloud Platform services.
+          • Collaborated with business analysts and users to troubleshoot issues and deliver enhancements.
+          • Supported system maintenance and continuous improvement initiatives.
+          `,
           color: "#0071C5",
         },
         {
@@ -226,14 +278,14 @@ const experience = {
           company: "Pro Int Dinamika",
           company_url: "https://pro-int.co.id/",
           logo_path: "proint.png",
-          duration: "May 2021 - Oct 2022",
+          duration: "Mar 2021 - Oct 2022 · 1 yr 8 mos",
           location: "Jakarta, Indonesia",
           description: `
-          • Managed Human Resources Information System (HRIS) application.\n
-          • Developed web applications using .NET and C#.\n
-          • Created reports using Perpetuum reporting software.\n
-          • Ensured software quality by analyzing and implementing client requirements.\n
-          • Wrote clean, efficient, and testable code for both front-end and back-end applications.\n
+          • Developed and maintained a Human Resource Management System (HRIS) using C# .NET and JavaScript.
+          • Built and integrated SOAP APIs for communication with external systems.
+          • Designed reports using Perpetuum based on client requirements.
+          • Performed code reviews, debugging, and troubleshooting.
+          • Applied OOP principles and software development best practices.
           `,
           color: "#0071C5",
         },
