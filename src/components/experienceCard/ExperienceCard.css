@@ -4,10 +4,14 @@
   border-radius: 10px;
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
 }
 
 .experience-card-logo-div {
-  margin: 10px;
+  display: flex;
+  align-items: center;
+  padding: 16px 10px 10px 10px;
+  flex-shrink: 0;
 }
 
 .experience-card-body-div {
@@ -17,6 +21,7 @@
 .experience-card-header-div {
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
 }
 
 .experience-card-logo {
@@ -25,11 +30,19 @@
 
 .experience-card-title {
   font-family: "Google Sans Regular";
-  margin-top: 10px;
+  margin-top: 30px;
   margin-bottom: 2px;
   margin-left: 0px;
   margin-right: 7px;
   text-align: left;
+}
+
+.experience-card-title-link {
+  text-decoration: none;
+}
+
+.experience-card-title-link:hover {
+  text-decoration: underline;
 }
 
 .experience-card-company {
@@ -40,7 +53,7 @@
 
 .experience-card-duration {
   font-family: "Google Sans Regular";
-  margin-top: 10px;
+  margin-top: 30px;
   margin-bottom: 2px;
   margin-left: 0px;
   margin-right: 0px;
@@ -49,15 +62,15 @@
 }
 
 .experience-card-heading-left {
-  float: left;
   margin-left: 10px;
   margin-right: auto;
 }
 
 .experience-card-heading-right {
-  float: right;
   margin-left: auto;
   margin-right: 10px;
+  text-align: right;
+  white-space: nowrap;
 }
 
 .experience-card-location {
@@ -113,6 +126,91 @@
   text-align: right;
 }
 
+/* ── LinkedIn-style positions ── */
+
+.experience-positions-list {
+  margin-top: 12px;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-bottom: 8px;
+}
+
+.experience-position-item {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-bottom: 0;
+}
+
+/* The thin vertical timeline column */
+.experience-position-timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  padding-top: 4px;
+  width: 14px;
+}
+
+.experience-position-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.experience-position-line {
+  width: 2px;
+  flex: 1;
+  min-height: 16px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-radius: 2px;
+}
+
+/* Position content */
+.experience-position-content {
+  flex: 1;
+  padding-bottom: 20px;
+}
+
+.experience-position-title {
+  font-family: "Google Sans Regular";
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 2px 0;
+  text-align: left;
+}
+
+.experience-position-meta {
+  font-family: "Google Sans Regular";
+  font-size: 0.85rem;
+  margin: 0 0 8px 0;
+}
+
+.experience-position-description {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.experience-position-description li {
+  font-family: "Google Sans Regular";
+  font-size: 0.9rem;
+  line-height: 1.6;
+  padding-left: 1.1em;
+  position: relative;
+  text-align: justify;
+}
+
+.experience-position-description li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+}
+
+/* ── Responsive ── */
+
 @media (max-width: 768px) {
   .experience-card {
     margin-bottom: 10px;
@@ -125,15 +223,16 @@
   }
 
   .experience-card-heading-left {
-    float: center;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
   }
 
   .experience-card-heading-right {
-    float: center;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    white-space: normal;
   }
 
   .experience-card-title {
@@ -168,5 +267,22 @@
   .experience-card-margin-top {
     margin-top: 5px;
     text-align: right;
+  }
+
+  .experience-positions-list {
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  .experience-position-item {
+    gap: 10px;
+  }
+
+  .experience-position-title {
+    text-align: left;
+  }
+
+  .experience-position-description li {
+    text-align: left;
   }
 }

@@ -127,10 +127,10 @@ const degrees = {
       alt_name: "UBM",
       duration: "2016 - 2020",
       descriptions: [
-        "⚡ I have studied core subjects like Data Structures, Algorithm, DBMS, Networking, Security, etc.",
-        "⚡ I have also completed various workshops for Web , Mobile App Development, etc.",
-        "⚡ I am the best graduate of IT Major class of 2016.",
-        "⚡ I have secured 3.95/4.00 GPA.",
+        "⚡ Best Graduate of the Information Technology Class of 2016.",
+        "⚡ Studied core subjects like Data Structures, Algorithm, DBMS, Networking, Security, etc.",
+        "⚡ Completed various workshops for Web , Mobile App Development, etc.",
+        "⚡ Secured 3.95/4.00 GPA.",
       ],
       website_link: "https://www.ubm.ac.id/",
     },
@@ -245,49 +245,61 @@ const experience = {
       experiences: [
         {
           title: "Agung Sedayu Group",
-          company: "2 positions",
+          company: "",
           company_url: "https://www.agungsedayu.com/",
           logo_path: "asg.png",
           duration: "Nov 2022 - Present · 3 yrs 7 mos",
           location: "Jakarta, Indonesia",
-          description: `
-          Senior Backend Developer
-          Nov 2025 - Present · 7 mos
-
-          • Developed and maintained microservices and RESTful APIs using Python (FastAPI) and C# .NET.\n
-          • Deployed and maintained applications using Cloud Run and Cloud Functions.\n
-          • Refactored legacy code and improved system maintainability.\n
-          • Wrote technical documentation and system workflows.\n
-          • Contributed to data migration from Microsoft Dynamics AX to PostgreSQL.\n
-          • Leveraged Generative AI for code generation, refactoring, and documentation.
-
-          ────────────────────
-
-          Backend Developer
-          Nov 2022 - Oct 2025 · 3 yrs
-
-          • Developed and maintained RESTful APIs and internal applications using Python and C#.\n
-          • Implemented cloud-based solutions using Google Cloud Platform services.\n
-          • Collaborated with business analysts and users to troubleshoot issues and deliver enhancements.\n
-          • Supported system maintenance and continuous improvement initiatives.
-          `,
           color: "#0071C5",
+          positions: [
+            {
+              title: "Senior Backend Developer",
+              type: "Full-time",
+              duration: "Nov 2025 - Present · 7 mos",
+              description: [
+                "Developed and maintained microservices and RESTful APIs using Python (FastAPI) and C# .NET.",
+                "Deployed and maintained applications using Cloud Run and Cloud Functions.",
+                "Refactored legacy code and improved system maintainability.",
+                "Wrote technical documentation and system workflows.",
+                "Contributed to data migration from Microsoft Dynamics AX to PostgreSQL.",
+                "Leveraged Generative AI for code generation, refactoring, and documentation.",
+              ],
+            },
+            {
+              title: "Backend Developer",
+              type: "Contract",
+              duration: "Nov 2022 - Oct 2025 · 3 yrs",
+              description: [
+                "Developed and maintained RESTful APIs and internal applications using Python and C#.",
+                "Implemented cloud-based solutions using Google Cloud Platform services.",
+                "Collaborated with business analysts and users to troubleshoot issues and deliver enhancements.",
+                "Supported system maintenance and continuous improvement initiatives.",
+              ],
+            },
+          ],
         },
         {
-          title: "Fullstack Developer",
-          company: "Pro Int Dinamika",
+          title: "Pro Int Dinamika",
+          company: "",
           company_url: "https://pro-int.co.id/",
           logo_path: "proint.png",
           duration: "Mar 2021 - Oct 2022 · 1 yr 8 mos",
           location: "Jakarta, Indonesia",
-          description: `
-          • Developed and maintained a Human Resource Management System (HRIS) using C# .NET and JavaScript.\n
-          • Built and integrated SOAP APIs for communication with external systems.\n
-          • Designed reports using Perpetuum based on client requirements.\n
-          • Performed code reviews, debugging, and troubleshooting.\n
-          • Applied OOP principles and software development best practices.
-          `,
           color: "#0071C5",
+          positions: [
+            {
+              title: "Fullstack Developer",
+              type: "Full-time",
+              duration: "Mar 2021 - Oct 2022 · 1 yr 8 mos",
+              description: [
+                "Developed and maintained a Human Resource Management System (HRIS) using C# .NET and JavaScript.",
+                "Built and integrated SOAP APIs for communication with external systems.",
+                "Designed reports using Perpetuum based on client requirements.",
+                "Performed code reviews, debugging, and troubleshooting.",
+                "Applied OOP principles and software development best practices.",
+              ],
+            },
+          ],
         },
       ],
     },
