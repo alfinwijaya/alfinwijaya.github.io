@@ -15,13 +15,13 @@ const greeting = {
   full_name: "Alfin Wijaya",
   subTitle: "Backend Developer, Web Tech Enthusiast 🔥. Always learning.",
   resumeLink:
-    "https://drive.google.com/file/d/1VfaklFaVGtLwrVgkXCPwbWM4mRCwiveY/view?usp=drive_link",
+    "https://drive.google.com/file/d/14Vx0vNVZx1FSyuxowla6FWAyyU8MEGhP/view?usp=drive_link",
   mail: "mailto:wijayaalfin@gmail.com",
 };
 
 const socialMediaLinks = {
   github: "https://github.com/alfinwijaya",
-  linkedin: "https://www.linkedin.com/in/alfinwijaya98/",
+  linkedin: "https://www.linkedin.com/in/alfinwijaya/",
   gmail: "wijayaalfin@gmail.com",
   instagram: "https://www.instagram.com/alfinw__/",
 };
@@ -254,11 +254,11 @@ const experience = {
           Senior Backend Developer
           Nov 2025 - Present · 7 mos
 
-          • Developed and maintained microservices and RESTful APIs using Python (FastAPI) and C# .NET.
-          • Deployed and maintained applications using Cloud Run and Cloud Functions.
-          • Refactored legacy code and improved system maintainability.
-          • Wrote technical documentation and system workflows.
-          • Contributed to data migration from Microsoft Dynamics AX to PostgreSQL.
+          • Developed and maintained microservices and RESTful APIs using Python (FastAPI) and C# .NET.\n
+          • Deployed and maintained applications using Cloud Run and Cloud Functions.\n
+          • Refactored legacy code and improved system maintainability.\n
+          • Wrote technical documentation and system workflows.\n
+          • Contributed to data migration from Microsoft Dynamics AX to PostgreSQL.\n
           • Leveraged Generative AI for code generation, refactoring, and documentation.
 
           ────────────────────
@@ -266,9 +266,9 @@ const experience = {
           Backend Developer
           Nov 2022 - Oct 2025 · 3 yrs
 
-          • Developed and maintained RESTful APIs and internal applications using Python and C#.
-          • Implemented cloud-based solutions using Google Cloud Platform services.
-          • Collaborated with business analysts and users to troubleshoot issues and deliver enhancements.
+          • Developed and maintained RESTful APIs and internal applications using Python and C#.\n
+          • Implemented cloud-based solutions using Google Cloud Platform services.\n
+          • Collaborated with business analysts and users to troubleshoot issues and deliver enhancements.\n
           • Supported system maintenance and continuous improvement initiatives.
           `,
           color: "#0071C5",
@@ -281,10 +281,10 @@ const experience = {
           duration: "Mar 2021 - Oct 2022 · 1 yr 8 mos",
           location: "Jakarta, Indonesia",
           description: `
-          • Developed and maintained a Human Resource Management System (HRIS) using C# .NET and JavaScript.
-          • Built and integrated SOAP APIs for communication with external systems.
-          • Designed reports using Perpetuum based on client requirements.
-          • Performed code reviews, debugging, and troubleshooting.
+          • Developed and maintained a Human Resource Management System (HRIS) using C# .NET and JavaScript.\n
+          • Built and integrated SOAP APIs for communication with external systems.\n
+          • Designed reports using Perpetuum based on client requirements.\n
+          • Performed code reviews, debugging, and troubleshooting.\n
           • Applied OOP principles and software development best practices.
           `,
           color: "#0071C5",
